@@ -36,7 +36,7 @@ int Get_Integral(char s_value[])
     s_fractional[i - count] = '\0';
 
     integral = atoi(s_integral);
-    fractional = atoi(s_fractional);
+    //fractional = atoi(s_fractional);
     return integral;
 }
 int Get_Fractional(char s_value[])
@@ -61,7 +61,7 @@ int Get_Fractional(char s_value[])
     }
     s_fractional[i - count] = '\0';
 
-    integral = atoi(s_integral);
+    //integral = atoi(s_integral);
     fractional = atoi(s_fractional);
     return fractional;
 }
@@ -82,7 +82,7 @@ double Binary_to_Decimal(char input[])
     int fractional=Get_Fractional(input);
     if(checkIsBinaryIntegral(integral)==false || checkIsBinaryIntegral(fractional)==false)
     {
-        printf("Invalid Input\n");
+        printf("Invalid Input !!\n");
     }
     else
     {
