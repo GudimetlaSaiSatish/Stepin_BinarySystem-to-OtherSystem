@@ -14,20 +14,20 @@ void tearDown()
 /*Test for Binary to Decimal*/
 void bin_dec(void)
 {
-	TEST_ASSERT_EQUAL_DOUBLE(10.000000,double Binary_to_Decimal("1010"));
+	TEST_ASSERT_EQUAL_DOUBLE(10.000000,Binary_to_Decimal("1010"));
 }
 
 /*Test for Binary to Octal*/
 void bin_oct(void)
 {
-    TEST_ASSERT_EQUAL_STRING("53.0",void Binary_to_Octal("101011"));
+    TEST_ASSERT_EQUAL_STRING("53.0",Binary_to_Octal("101011"));
 }
 
 
 /*Test for Binary to Hexadecimal*/
 void bin_hex(void)
 {
-    TEST_ASSERT_EQUAL_STRING("FF",void Binary_To_Hexadecimal ("11111111"));
+    TEST_ASSERT_EQUAL_STRING("FF",Binary_To_Hexadecimal ("11111111"));
 }
 
 
