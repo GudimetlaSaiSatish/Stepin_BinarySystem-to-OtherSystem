@@ -22,7 +22,7 @@ void main()
             break;
         }
         printf("\n\tEnter Binary Number  :");
-        scanf("%s",input);
+        scanf("%10s",input);
         printf("\n");
         int countbin=0;
         int dot=0;
