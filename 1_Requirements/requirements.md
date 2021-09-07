@@ -21,7 +21,7 @@
     - Converting a Binary number to Hexadecimal number.
    
 ## SWOT ANALYSIS
-![SWOT-Analysis](https://github.com/GudimetlaSaiSatish/SampleProject/blob/main/swotanalysis.png)
+![SWOT-Analysis](https://github.com/GudimetlaSaiSatish/Stepin_BinarySystem-to-OtherSystem/blob/main/6_ImagesAndVideos/swotanalysis1.png)
 # 4W&#39;s and 1&#39;H
 
 ## Who
