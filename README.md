@@ -3,11 +3,6 @@
 The most common application for the binary number system can be found in computer technology. All computer language and programming is based on the 2-digit number system used in digital encoding. Digital encoding is the process of taking data and representing it with discreet bits of information. These discreet bits consist of the 0s and 1s of the binary system.
 There are three conversions possible for binary number, i.e., binary to decimal, binary to octal, and binary to hexadecimal. The conversion process of a binary number to decimal differs from the remaining others.
 
-### OPERATIONS
-
--  Binary to Decimal Conversion.
--  Binary to Octal Conversion.
--  Binary to Hexadecimal Conversion.
 
 ![Code_Inspector_Badge](https://www.code-inspector.com/project/27714/score/svg)
 
