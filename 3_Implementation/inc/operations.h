@@ -10,6 +10,7 @@
 #ifndef STDBOOL_H_
     #define STDBOOL_H_
     #include "stdbool.h"
+    #include "math.h"
 #endif
 
 
