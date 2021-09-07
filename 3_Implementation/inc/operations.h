@@ -10,8 +10,33 @@
 #ifndef STDBOOL_H_
     #define STDBOOL_H_
     #include "stdbool.h"
-    #include "math.h"
 #endif
+
+/**
+ * @brief This function validates the user's choice.
+ * 
+ * 
+ * @param ch   input is an Integer of choice.
+ * @return int   Is an integer either 1 or 0.
+ * 
+ * Returns 1 for Valid choice.
+ * Returns 0 for Invalid choice.
+ */
+
+int validate_choice(int ch);
+
+/**
+ * @brief This function validates the Binary input.
+ * 
+ * 
+ * @param input   input is a Binary string.
+ * @return int   Is an integer either 1 or 0.
+ * 
+ * Returns 1 for Valid Binary input.
+ * Returns 0 for Invalid Binary input.
+ */
+
+int binary_check(char input[]);
 
 
 /**
