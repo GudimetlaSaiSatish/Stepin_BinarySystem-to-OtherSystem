@@ -42,17 +42,20 @@ void main()
             if(countbin!=strlen(input))
             {
                 printf("Invalid Input !!\n");
+                break;
             }
         }
         else if(dot>1)
         {
             printf("Invalid Input !!\n");
+            break;
         }
         else if(dot==1)
         {
             if(countbin != strlen(input)-1)
             {
                 printf("Invalid Input !!\n");
+                break;
             }
         }
         switch(choice)
