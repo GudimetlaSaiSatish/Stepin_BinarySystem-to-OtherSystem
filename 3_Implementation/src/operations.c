@@ -3,6 +3,63 @@
 #include "stdbool.h"
 #include "math.h"
 #include "string.h"
+
+
+int binary_check(char input[])
+{
+        int countbin=0;
+        int dot=0;
+        int k;
+        for(int i=0;i<strlen(input);i++)
+        {
+            if(input[i]=='.')
+            {
+                dot+=1;
+            }
+            if(input[i]=='1' || input[i]=='0')
+            {
+                countbin+=1;
+            }
+        }
+        if(dot==0)
+        {
+            if(countbin!=strlen(input))
+            {
+                k = 0;
+                return k;
+                exit(0);
+            }
+        }
+        else if(dot>1)
+        {
+            k = 0;
+            return k;
+            exit(0);
+        }
+        else if(dot==1)
+        {
+            if(countbin != strlen(input)-1)
+            {
+                k = 0;
+                return k;
+                exit(0);
+            }
+        }
+        k = 1;
+        return k;
+}
+
+int validate_choice(int ch)
+{
+    if (ch > 3 || ch < 0)
+    {
+        return 0;
+    }
+    else return 1;
+
+}
+
+
 int findReverse(int n)
 {
    int sum=0;
@@ -33,10 +90,10 @@ int Get_Integral(char s_value[])
         else
             s_fractional[i - count] = s_value[i];
     }
-    //s_fractional[i - count] = '\0';
+   
 
     integral = atoi(s_integral);
-    //fractional = atoi(s_fractional);
+   
     return integral;
 }
 int Get_Fractional(char s_value[])
@@ -61,7 +118,6 @@ int Get_Fractional(char s_value[])
     }
     s_fractional[i - count] = '\0';
 
-    //integral = atoi(s_integral);
     fractional = atoi(s_fractional);
     return fractional;
 }
@@ -82,7 +138,7 @@ double Binary_to_Decimal(char input[])
     int fractional=Get_Fractional(input);
     if(checkIsBinaryIntegral(integral)==false || checkIsBinaryIntegral(fractional)==false)
     {
-        printf("Invalid Input !!\n");
+        printf("Invalid Input\n");
     }
     else
     {
