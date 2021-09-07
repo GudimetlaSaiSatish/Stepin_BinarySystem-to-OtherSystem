@@ -33,7 +33,7 @@ int Get_Integral(char s_value[])
         else
             s_fractional[i - count] = s_value[i];
     }
-    s_fractional[i - count] = '\0';
+    //s_fractional[i - count] = '\0';
 
     integral = atoi(s_integral);
     //fractional = atoi(s_fractional);
