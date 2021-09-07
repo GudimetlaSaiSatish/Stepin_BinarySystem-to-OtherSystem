@@ -19,6 +19,8 @@ void choice_chk(void)
 	TEST_ASSERT_EQUAL(1,validate_choice(3));
 	TEST_ASSERT_EQUAL(1,validate_choice(2));
 	TEST_ASSERT_EQUAL(1,validate_choice(1));
+	TEST_ASSERT_EQUAL(0,validate_choice(4));
+	TEST_ASSERT_EQUAL(0,validate_choice(-1));
 
 	
 
@@ -33,7 +35,9 @@ void bin_chk(void)
 	TEST_ASSERT_EQUAL(1,binary_check("101011"));
 	TEST_ASSERT_EQUAL(1,binary_check("1111.11"));
 	TEST_ASSERT_EQUAL(1,binary_check("1111111111"));
-
+	TEST_ASSERT_EQUAL(0,binary_check("1111111112"));
+	TEST_ASSERT_EQUAL(0,binary_check("256.9"));
+	
 }
 
 
