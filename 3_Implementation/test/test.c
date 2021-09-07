@@ -11,34 +11,38 @@ void tearDown()
 
 }
 
-/*Test for Binary to Decimal*/
-void bin_dec(void)
+/* valid choice check*/
+void choice_chk(void)
 {
-	TEST_ASSERT_EQUAL_DOUBLE(10.000000,Binary_to_Decimal("1010"));
+
+	TEST_ASSERT_EQUAL(1,validate_choice(0));
+	TEST_ASSERT_EQUAL(1,validate_choice(3));
+	TEST_ASSERT_EQUAL(1,validate_choice(2));
+	TEST_ASSERT_EQUAL(1,validate_choice(1));
+
+	
+
+
 }
 
-/*Test for Binary to Octal*/
-void bin_oct(void)
+/* valid Binary Check */
+
+void bin_chk(void)
 {
-    TEST_ASSERT_EQUAL_STRING("53.0",Binary_to_Octal("101011"));
+
+	TEST_ASSERT_EQUAL(1,binary_check("101011"));
+	TEST_ASSERT_EQUAL(1,binary_check("1111.11"));
+	TEST_ASSERT_EQUAL(1,binary_check("1111111111"));
+
 }
-
-
-/*Test for Binary to Hexadecimal*/
-void bin_hex(void)
-{
-    TEST_ASSERT_EQUAL_STRING("FF",Binary_To_Hexadecimal ("11111111"));
-}
-
 
 
 
 int main()
 {
 	UNITY_BEGIN();
-	RUN_TEST(bin_dec);
-	RUN_TEST(bin_oct);
-	RUN_TEST(bin_hex);
-	
+	RUN_TEST(choice_chk);
+	RUN_TEST(bin_chk);
+
 	return UNITY_END();
 }
