@@ -15,3 +15,5 @@ There are three conversions possible for binary number, i.e., binary to decimal,
 [![Code Quality - Static Code - Cppcheck](https://github.com/GudimetlaSaiSatish/Stepin_BinarySystem-to-OtherSystem/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/GudimetlaSaiSatish/Stepin_BinarySystem-to-OtherSystem/actions/workflows/cppcheck.yml)
 
 [![Unit Testing - Unity](https://github.com/GudimetlaSaiSatish/Stepin_BinarySystem-to-OtherSystem/actions/workflows/unity.yml/badge.svg)](https://github.com/GudimetlaSaiSatish/Stepin_BinarySystem-to-OtherSystem/actions/workflows/unity.yml)
+
+[![GitInspector](https://github.com/GudimetlaSaiSatish/Stepin_BinarySystem-to-OtherSystem/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/GudimetlaSaiSatish/Stepin_BinarySystem-to-OtherSystem/actions/workflows/gitinspector.yml)
