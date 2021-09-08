@@ -17,3 +17,5 @@ There are three conversions possible for binary number, i.e., binary to decimal,
 [![Unit Testing - Unity](https://github.com/GudimetlaSaiSatish/Stepin_BinarySystem-to-OtherSystem/actions/workflows/unity.yml/badge.svg)](https://github.com/GudimetlaSaiSatish/Stepin_BinarySystem-to-OtherSystem/actions/workflows/unity.yml)
 
 [![GitInspector](https://github.com/GudimetlaSaiSatish/Stepin_BinarySystem-to-OtherSystem/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/GudimetlaSaiSatish/Stepin_BinarySystem-to-OtherSystem/actions/workflows/gitinspector.yml)
+
+[![Valgrind](https://github.com/GudimetlaSaiSatish/Stepin_BinarySystem-to-OtherSystem/actions/workflows/valgrind.yml/badge.svg)](https://github.com/GudimetlaSaiSatish/Stepin_BinarySystem-to-OtherSystem/actions/workflows/valgrind.yml)
