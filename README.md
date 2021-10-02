@@ -19,3 +19,5 @@ There are three conversions possible for binary number, i.e., binary to decimal,
 [![GitInspector](https://github.com/GudimetlaSaiSatish/Stepin_BinarySystem-to-OtherSystem/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/GudimetlaSaiSatish/Stepin_BinarySystem-to-OtherSystem/actions/workflows/gitinspector.yml)
 
 [![Valgrind](https://github.com/GudimetlaSaiSatish/Stepin_BinarySystem-to-OtherSystem/actions/workflows/valgrind.yml/badge.svg)](https://github.com/GudimetlaSaiSatish/Stepin_BinarySystem-to-OtherSystem/actions/workflows/valgrind.yml)
+
+[![CI-Coverage](https://github.com/GudimetlaSaiSatish/Stepin_BinarySystem-to-OtherSystem/actions/workflows/coverage.yml/badge.svg)](https://github.com/GudimetlaSaiSatish/Stepin_BinarySystem-to-OtherSystem/actions/workflows/coverage.yml)
