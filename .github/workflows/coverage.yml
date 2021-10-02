@@ -1,0 +1,13 @@
+- name: gcov2lcov-action
+  # You may pin to the exact commit or the version.
+  # uses: jandelgado/gcov2lcov-action@2477d9ec11814a9326e7fdde8d315783d163edb7
+  uses: jandelgado/gcov2lcov-action@v1.0.8
+  with:
+    # go coverage input file
+    infile: # optional, default is coverage.out
+    # lcov output file
+    outfile: # optional, default is coverage.lcov
+    # gcov2lcov version
+    version: # optional, default is latest
+    # change working directory
+    working-directory: # optional
