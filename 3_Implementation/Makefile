@@ -13,7 +13,7 @@ INC_H = inc
 INC_T = unity
 
 ifdef OS
-   RM = del 
+   RM = rm 
    FixPath = $(subst /,\,$1)
    EXEC = exe
 else
@@ -39,7 +39,7 @@ coverage:
 	gcc -fprofile-arcs -ftest-coverage -I $(INC_H) -I $(INC_T) unity/unity.c test.c $(SRC) -o $(call FixPath, $(TEST_PROJ_NAME).$(EXEC))
 	$(call FixPath, ./$(TEST_PROJ_NAME).$(EXEC))
 	gcov -a $(Bin_SRC)
-	$(RM) *.out
+	$(RM)$(call FixPath,$(TEST_PROJ_NAME).$(EXEC))
 	
 	
 	$(RM) test.c
@@ -57,4 +57,4 @@ valgrind:
 
 clean:
 	
-	$(RM) *.$(EXEC)
+	$(RM)$(call FixPath,$(PROJ_NAME).$(EXEC))
